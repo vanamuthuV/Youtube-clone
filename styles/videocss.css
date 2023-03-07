@@ -1,0 +1,109 @@
+.logo-class{
+  display :inline-block;
+  width : 50px;
+}
+
+.details-class {
+  display : grid;
+  grid-template-rows : 60px 24px 28px;
+  width : 227px;
+}
+
+
+.thumbnail{
+  display : 100%;
+  height : 156px;
+  border-radius :  10px;
+  cursor : pointer;
+}
+
+.logo{
+  width :40px;
+  border-radius:30px;
+  vertical-align : top;
+}
+
+.text-details {
+  font-size : 12px;
+  font-weight : bold;
+  margin-top : 0px;
+  line-height:20px;
+  width : 227px;
+  height : 60px;
+}
+
+.text-author,.text-stats {
+  font-size : 11px;
+  color : gray;
+}
+
+.text-stats {
+  margin-top : 2px;
+  margin-bottom : 0px;
+}
+
+.text-author {
+  margin-bottom : 2px;
+}
+
+.parent-class,.parent-class1 {
+  display : inline-block;
+}
+
+.grandparent-class{
+ display : inline-grid;
+  grid-template-rows: 1fr 100px;
+  width : 277px;
+  margin-right : 0px;
+  margin-bottom : 5px;
+  margin-right : 5px;
+  margin-left : 5px;
+  margin-top : 5px;
+}
+
+.parent-class:hover {
+  opacity : 0.8;
+  transition: 1000ms;
+}
+
+.parent-class1 {
+  display : grid;
+  grid-template-columns : 50px 1fr;
+  width : 277px;
+  height : 100px;
+  position: relative;
+}
+
+.parent-class {
+  display : inline;
+  width : 277px;
+  position: relative;
+}
+
+
+.search-class {
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.video-time {
+  background-color : rgb(32, 31, 31);
+  color : rgb(245, 240, 240);
+  position : absolute;
+  bottom : 4px;
+  right : 0px;
+  justify-content:center;
+  display : flex;
+  flex-direction : row;
+  width : 25px;
+  height :12px;
+  align-items: center;
+  border-radius : 4px;
+  font-size : 12px;
+  font-weight: 500;
+  margin: 4px;
+  padding-top : 3px;
+  padding-bottom : 3px;
+  padding-left:4px;
+  padding-right : 4px;
+}

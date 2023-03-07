@@ -1,0 +1,42 @@
+.sidebar {
+  position : absolute;
+  width : 72px;
+  left : 0;top : 66px;bottom :0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-bar {
+  height : 72;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius : 10px;
+  cursor:pointer;
+}
+
+.im {
+  width :24px;
+  height : 24px;
+  padding-top:18px;
+  padding-bottom: 4px;
+  padding-right : 24px;
+  padding-left : 24px;
+}
+
+.side-bar:hover {
+  transition: 500ms;
+  border-color : rgb(194, 193, 193);
+  border-style : solid;
+  border-width : 1px;
+  background-color: rgb(226, 226, 226);
+}
+
+.side-bar-text {
+  font-family : Roboto, Arial;
+  font-size : 10px;
+  padding-bottom :14px;
+  font-weight: 500;
+}

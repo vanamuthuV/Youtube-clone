@@ -1,0 +1,74 @@
+ .button-search .tooltip ,
+ .button-voice  .tooltip ,
+ .button-signin .tooltip ,
+ .button-threedots .tooltip 
+ {
+  background-color:rgb(145, 145, 145);
+  border-radius : 4px;
+  position: absolute;
+  padding-top : 6px;
+  padding-bottom : 6px;
+  padding-left : 8px;
+  padding-right : 8px;
+  font-family : Roboto , Arial;
+  font-size: 12px;
+  bottom : -40px;
+  color : white;
+  opacity : 0;
+  z-index: 100;
+  white-space: nowrap;
+}
+
+.button-search,
+.button-voice ,
+.button-threedots 
+ {
+  position : relative;
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+ }
+
+ .button-signin {
+  position:relative;
+ }
+
+.button-search:hover .tooltip ,
+.button-voice:hover  .tooltip ,
+.button-signin:hover .tooltip ,
+.button-threedots:hover .tooltip 
+{
+  opacity: 1;
+  pointer-events: none;
+}
+
+.side-bar {
+  position : relative;
+}
+
+.side-bar .tooltip-side {
+  background-color:gray;
+  border-radius : 4px;
+  position: absolute;
+  padding-top : 4px;
+  padding-bottom : 4px;
+  padding-left : 6px;
+  padding-right : 6px;
+  font-family : Roboto , Arial;
+  font-size: 12px;
+  bottom : 25px;
+  right : -30px;
+  color : white;
+  opacity : 0;
+  z-index: 100;
+  white-space: nowrap;
+  border-color : black;
+  border-width : 0.1px;
+  border-style : solid;
+  font-weight: 10;
+}
+
+.side-bar:hover .tooltip-side {
+  opacity : 1;
+  transition: 2s;
+}
